@@ -1,0 +1,351 @@
+﻿#pragma once
+
+// Name: DBZKakarot, Version: 1.0.3
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.GetClosedText
+struct UUMG_DisplayGraphicsSettings_C_GetClosedText_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.GetOpenedText
+struct UUMG_DisplayGraphicsSettings_C_GetOpenedText_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.GetK&MButtons
+struct UUMG_DisplayGraphicsSettings_C_GetK_MButtons_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.DEBUG_WindowModeSettingState
+struct UUMG_DisplayGraphicsSettings_C_DEBUG_WindowModeSettingState_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.DEBUG_ResolutionSettingState
+struct UUMG_DisplayGraphicsSettings_C_DEBUG_ResolutionSettingState_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.InitialiseVideoOptions
+struct UUMG_DisplayGraphicsSettings_C_InitialiseVideoOptions_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.SetResolution
+struct UUMG_DisplayGraphicsSettings_C_SetResolution_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.DefaultBrightnessSetting
+struct UUMG_DisplayGraphicsSettings_C_DefaultBrightnessSetting_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.SetToDesktopResolution
+struct UUMG_DisplayGraphicsSettings_C_SetToDesktopResolution_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.DefaultSettings
+struct UUMG_DisplayGraphicsSettings_C_DefaultSettings_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.ConfirmVideoSettings
+struct UUMG_DisplayGraphicsSettings_C_ConfirmVideoSettings_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.RevertVideoSettings
+struct UUMG_DisplayGraphicsSettings_C_RevertVideoSettings_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.ResetConfirmCountdownPopup
+struct UUMG_DisplayGraphicsSettings_C_ResetConfirmCountdownPopup_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.ConfirmationDialogueCountdown
+struct UUMG_DisplayGraphicsSettings_C_ConfirmationDialogueCountdown_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.RefreshResolutionWidget
+struct UUMG_DisplayGraphicsSettings_C_RefreshResolutionWidget_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.SetDisplayMode
+struct UUMG_DisplayGraphicsSettings_C_SetDisplayMode_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.SetCustomGraphics
+struct UUMG_DisplayGraphicsSettings_C_SetCustomGraphics_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.IsGraphicsCustomised
+struct UUMG_DisplayGraphicsSettings_C_IsGraphicsCustomised_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.HideHUDScalingInLocalCoop
+struct UUMG_DisplayGraphicsSettings_C_HideHUDScalingInLocalCoop_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.RefreshDisplayModeOption
+struct UUMG_DisplayGraphicsSettings_C_RefreshDisplayModeOption_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.DidSettingChange
+struct UUMG_DisplayGraphicsSettings_C_DidSettingChange_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.SetHUDScale
+struct UUMG_DisplayGraphicsSettings_C_SetHUDScale_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.SetGraphicsPreset
+struct UUMG_DisplayGraphicsSettings_C_SetGraphicsPreset_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.RevertModifiedSettings
+struct UUMG_DisplayGraphicsSettings_C_RevertModifiedSettings_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.ResolveModifiedSettings
+struct UUMG_DisplayGraphicsSettings_C_ResolveModifiedSettings_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.SetDesiredSettingValue
+struct UUMG_DisplayGraphicsSettings_C_SetDesiredSettingValue_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.IsLocalMultiplayerGame
+struct UUMG_DisplayGraphicsSettings_C_IsLocalMultiplayerGame_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.ApplySettings
+struct UUMG_DisplayGraphicsSettings_C_ApplySettings_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.InitialiseSettingsOptions
+struct UUMG_DisplayGraphicsSettings_C_InitialiseSettingsOptions_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.RefreshResoultionOption
+struct UUMG_DisplayGraphicsSettings_C_RefreshResoultionOption_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.PopulateSupportedResolutions
+struct UUMG_DisplayGraphicsSettings_C_PopulateSupportedResolutions_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.RefreshVisuals
+struct UUMG_DisplayGraphicsSettings_C_RefreshVisuals_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.SetNavigationBarFromSelected
+struct UUMG_DisplayGraphicsSettings_C_SetNavigationBarFromSelected_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.CheckFocus
+struct UUMG_DisplayGraphicsSettings_C_CheckFocus_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.Construct
+struct UUMG_DisplayGraphicsSettings_C_Construct_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__UMG_SettingsBackground_K2Node_ComponentBoundEvent_0_CloseClicked__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__UMG_SettingsBackground_K2Node_ComponentBoundEvent_0_CloseClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.SetupGamepadListeners
+struct UUMG_DisplayGraphicsSettings_C_SetupGamepadListeners_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__advancedGraphics_K2Node_ComponentBoundEvent_1_OnButtonClick__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__advancedGraphics_K2Node_ComponentBoundEvent_1_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.UpdateLayout
+struct UUMG_DisplayGraphicsSettings_C_UpdateLayout_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.GamepadApply
+struct UUMG_DisplayGraphicsSettings_C_GamepadApply_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__resolution_K2Node_ComponentBoundEvent_2_onSettingChange__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__resolution_K2Node_ComponentBoundEvent_2_onSettingChange__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__displayMode_K2Node_ComponentBoundEvent_2_onSettingChange__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__displayMode_K2Node_ComponentBoundEvent_2_onSettingChange__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__hudScale_K2Node_ComponentBoundEvent_6_onValueChanged__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__hudScale_K2Node_ComponentBoundEvent_6_onValueChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__graphics_K2Node_ComponentBoundEvent_11_onSettingChange__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__graphics_K2Node_ComponentBoundEvent_11_onSettingChange__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.WindowDidResize
+struct UUMG_DisplayGraphicsSettings_C_WindowDidResize_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.CallWindowDidResize
+struct UUMG_DisplayGraphicsSettings_C_CallWindowDidResize_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.GraphicsSettingChanged
+struct UUMG_DisplayGraphicsSettings_C_GraphicsSettingChanged_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.OnGraphicsSettingUserChange
+struct UUMG_DisplayGraphicsSettings_C_OnGraphicsSettingUserChange_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.CloseSubMenu
+struct UUMG_DisplayGraphicsSettings_C_CloseSubMenu_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.DialogueInput_Event
+struct UUMG_DisplayGraphicsSettings_C_DialogueInput_Event_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.TeardownPostPopup
+struct UUMG_DisplayGraphicsSettings_C_TeardownPostPopup_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__brightnessButton_K2Node_ComponentBoundEvent_6_OnButtonClick__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__brightnessButton_K2Node_ComponentBoundEvent_6_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.DisplayConfirmationDialogue
+struct UUMG_DisplayGraphicsSettings_C_DisplayConfirmationDialogue_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.OpenAdvGfxSubMenu
+struct UUMG_DisplayGraphicsSettings_C_OpenAdvGfxSubMenu_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.DisplayConfirmVideoSettingsDialogue
+struct UUMG_DisplayGraphicsSettings_C_DisplayConfirmVideoSettingsDialogue_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.DialogueInputEvent
+struct UUMG_DisplayGraphicsSettings_C_DialogueInputEvent_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.ConfirmTimer
+struct UUMG_DisplayGraphicsSettings_C_ConfirmTimer_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.ConfirmTimerExpired
+struct UUMG_DisplayGraphicsSettings_C_ConfirmTimerExpired_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__applyButton_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__applyButton_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.GamepadDefaults
+struct UUMG_DisplayGraphicsSettings_C_GamepadDefaults_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__defaultsButton_K2Node_ComponentBoundEvent_5_OnClicked__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__defaultsButton_K2Node_ComponentBoundEvent_5_OnClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.ResetDialogueInput
+struct UUMG_DisplayGraphicsSettings_C_ResetDialogueInput_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__defaultsButton_K2Node_ComponentBoundEvent_7_OnHovered__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__defaultsButton_K2Node_ComponentBoundEvent_7_OnHovered__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.BndEvt__applyButton_K2Node_ComponentBoundEvent_8_OnHovered__DelegateSignature
+struct UUMG_DisplayGraphicsSettings_C_BndEvt__applyButton_K2Node_ComponentBoundEvent_8_OnHovered__DelegateSignature_Params
+{
+};
+
+// Function UMG_DisplayGraphicsSettings.UMG_DisplayGraphicsSettings_C.ExecuteUbergraph_UMG_DisplayGraphicsSettings
+struct UUMG_DisplayGraphicsSettings_C_ExecuteUbergraph_UMG_DisplayGraphicsSettings_Params
+{
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

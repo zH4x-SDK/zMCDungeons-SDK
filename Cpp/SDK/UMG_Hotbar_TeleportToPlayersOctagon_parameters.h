@@ -1,0 +1,206 @@
+﻿#pragma once
+
+// Name: DBZKakarot, Version: 1.0.3
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.RefreshListOpen
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_RefreshListOpen_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.GetIsAlive
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_GetIsAlive_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.ShouldListBeOpen
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_ShouldListBeOpen_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.OnAliveStateChanged
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_OnAliveStateChanged_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.UserOpenTeleportList
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_UserOpenTeleportList_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.UserCloseTeleportList
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_UserCloseTeleportList_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.SetShowDownedMate
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_SetShowDownedMate_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.CheckNeedsWarning
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_CheckNeedsWarning_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.setPopupAlignment
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_setPopupAlignment_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.GetHasAnyTarget
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_GetHasAnyTarget_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.SetAnyTarget
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_SetAnyTarget_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.RefreshAnyTarget
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_RefreshAnyTarget_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.GetListVisible
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_GetListVisible_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.RefreshGraphics
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_RefreshGraphics_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.SetPlayerController
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_SetPlayerController_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.SetDisabled
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_SetDisabled_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.OnTeleportStateChanged
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_OnTeleportStateChanged_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.SetPressed
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_SetPressed_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.SetListDesireOpen
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_SetListDesireOpen_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.UseEnderPearlToPlayer
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_UseEnderPearlToPlayer_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.UserToggleList
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_UserToggleList_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.BndEvt__TeleportToPlayersList_K2Node_ComponentBoundEvent_0_TeleportToFriend__DelegateSignature
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_BndEvt__TeleportToPlayersList_K2Node_ComponentBoundEvent_0_TeleportToFriend__DelegateSignature_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.SetPlayerCharacter
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_SetPlayerCharacter_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.GlowPeaked
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_GlowPeaked_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.BndEvt__UMG_HotbarSlotAction_K2Node_ComponentBoundEvent_4_OnActionClicked__DelegateSignature
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_BndEvt__UMG_HotbarSlotAction_K2Node_ComponentBoundEvent_4_OnActionClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.BndEvt__UMG_HotbarSlotAction_K2Node_ComponentBoundEvent_5_OnActionButtonStateChanged__DelegateSignature
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_BndEvt__UMG_HotbarSlotAction_K2Node_ComponentBoundEvent_5_OnActionButtonStateChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.WidgetAnimationEvt_CloseList_K2Node_WidgetAnimationEvent_1
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_WidgetAnimationEvt_CloseList_K2Node_WidgetAnimationEvent_1_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.WidgetAnimationEvt_OpenList_K2Node_WidgetAnimationEvent_2
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_WidgetAnimationEvt_OpenList_K2Node_WidgetAnimationEvent_2_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.BndEvt__TeleportToPlayersList_K2Node_ComponentBoundEvent_1_AnyPlayerDownChanged__DelegateSignature
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_BndEvt__TeleportToPlayersList_K2Node_ComponentBoundEvent_1_AnyPlayerDownChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.WidgetAnimationEvt_FriendDownPulse_K2Node_WidgetAnimationEvent_3
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_WidgetAnimationEvt_FriendDownPulse_K2Node_WidgetAnimationEvent_3_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.BndEvt__UMG_HintEventHelper_K2Node_ComponentBoundEvent_3_OnSpecificHintActivated__DelegateSignature
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_BndEvt__UMG_HintEventHelper_K2Node_ComponentBoundEvent_3_OnSpecificHintActivated__DelegateSignature_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.BndEvt__UMG_HintEventHelper_K2Node_ComponentBoundEvent_6_OnSpecificHintDeactivated__DelegateSignature
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_BndEvt__UMG_HintEventHelper_K2Node_ComponentBoundEvent_6_OnSpecificHintDeactivated__DelegateSignature_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.BndEvt__TeleportToPlayersList_K2Node_ComponentBoundEvent_7_OnCloseClicked__DelegateSignature
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_BndEvt__TeleportToPlayersList_K2Node_ComponentBoundEvent_7_OnCloseClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.ExecuteUbergraph_UMG_Hotbar_TeleportToPlayersOctagon
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_ExecuteUbergraph_UMG_Hotbar_TeleportToPlayersOctagon_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.OpenChanged__DelegateSignature
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_OpenChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_Hotbar_TeleportToPlayersOctagon.UMG_Hotbar_TeleportToPlayersOctagon_C.OnAnyTargetChanged__DelegateSignature
+struct UUMG_Hotbar_TeleportToPlayersOctagon_C_OnAnyTargetChanged__DelegateSignature_Params
+{
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

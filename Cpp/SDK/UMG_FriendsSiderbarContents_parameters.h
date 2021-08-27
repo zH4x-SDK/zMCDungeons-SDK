@@ -1,0 +1,441 @@
+﻿#pragma once
+
+// Name: DBZKakarot, Version: 1.0.3
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetOpenedText
+struct UUMG_FriendsSiderbarContents_C_GetOpenedText_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetClosedText
+struct UUMG_FriendsSiderbarContents_C_GetClosedText_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetHoveredText
+struct UUMG_FriendsSiderbarContents_C_GetHoveredText_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.ControllerTypeChanged
+struct UUMG_FriendsSiderbarContents_C_ControllerTypeChanged_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.RefreshCrossplayVisuals
+struct UUMG_FriendsSiderbarContents_C_RefreshCrossplayVisuals_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetAddFriendButtonVisibility
+struct UUMG_FriendsSiderbarContents_C_GetAddFriendButtonVisibility_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.SetupCrossplayInputBindings
+struct UUMG_FriendsSiderbarContents_C_SetupCrossplayInputBindings_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.ToggleFriendsCrossplayFilter
+struct UUMG_FriendsSiderbarContents_C_ToggleFriendsCrossplayFilter_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetCrossplayFilterHeaderBoxVisibility
+struct UUMG_FriendsSiderbarContents_C_GetCrossplayFilterHeaderBoxVisibility_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetCrossplayDisabledNoteVisibility
+struct UUMG_FriendsSiderbarContents_C_GetCrossplayDisabledNoteVisibility_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetCrossplayEnabledNoteVisibility
+struct UUMG_FriendsSiderbarContents_C_GetCrossplayEnabledNoteVisibility_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.ReturnFocusIfNone
+struct UUMG_FriendsSiderbarContents_C_ReturnFocusIfNone_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.getGamepadFocusableWidget
+struct UUMG_FriendsSiderbarContents_C_getGamepadFocusableWidget_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.PopContent
+struct UUMG_FriendsSiderbarContents_C_PopContent_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.SetGamepadFocus
+struct UUMG_FriendsSiderbarContents_C_SetGamepadFocus_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.SetContents
+struct UUMG_FriendsSiderbarContents_C_SetContents_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.RestoreContents
+struct UUMG_FriendsSiderbarContents_C_RestoreContents_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.NavigateAddFriend
+struct UUMG_FriendsSiderbarContents_C_NavigateAddFriend_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.SetWouldLiketoRefreshGames
+struct UUMG_FriendsSiderbarContents_C_SetWouldLiketoRefreshGames_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetTimeUntilAutoRefresh
+struct UUMG_FriendsSiderbarContents_C_GetTimeUntilAutoRefresh_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetTimeUntilRefreshPossible
+struct UUMG_FriendsSiderbarContents_C_GetTimeUntilRefreshPossible_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.UpdateRefreshGames
+struct UUMG_FriendsSiderbarContents_C_UpdateRefreshGames_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.CanRefreshGames
+struct UUMG_FriendsSiderbarContents_C_CanRefreshGames_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.RefreshRefreshButton
+struct UUMG_FriendsSiderbarContents_C_RefreshRefreshButton_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.NavigateRefresh
+struct UUMG_FriendsSiderbarContents_C_NavigateRefresh_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.onChildFocused
+struct UUMG_FriendsSiderbarContents_C_onChildFocused_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.RefreshLists
+struct UUMG_FriendsSiderbarContents_C_RefreshLists_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.UpdateFriendsCounter
+struct UUMG_FriendsSiderbarContents_C_UpdateFriendsCounter_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.setPrivate
+struct UUMG_FriendsSiderbarContents_C_setPrivate_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.SetNavigationFromHighlighted
+struct UUMG_FriendsSiderbarContents_C_SetNavigationFromHighlighted_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.setupSidebar
+struct UUMG_FriendsSiderbarContents_C_setupSidebar_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetUserManager
+struct UUMG_FriendsSiderbarContents_C_GetUserManager_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.findFocusableButton
+struct UUMG_FriendsSiderbarContents_C_findFocusableButton_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GetGamesResults
+struct UUMG_FriendsSiderbarContents_C_GetGamesResults_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.SetPlayerController
+struct UUMG_FriendsSiderbarContents_C_SetPlayerController_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.OnOpenChanged
+struct UUMG_FriendsSiderbarContents_C_OnOpenChanged_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.OnAnyPlayerCharacterChanged
+struct UUMG_FriendsSiderbarContents_C_OnAnyPlayerCharacterChanged_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.SetPlayerCharacter
+struct UUMG_FriendsSiderbarContents_C_SetPlayerCharacter_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.rowFocused
+struct UUMG_FriendsSiderbarContents_C_rowFocused_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_Button_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_Button_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.togglePrivate
+struct UUMG_FriendsSiderbarContents_C_togglePrivate_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.Construct
+struct UUMG_FriendsSiderbarContents_C_Construct_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_CloseButtonSolid_K2Node_ComponentBoundEvent_12_OnWasClicked__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_CloseButtonSolid_K2Node_ComponentBoundEvent_12_OnWasClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_GamesList_K2Node_ComponentBoundEvent_9_OnBusyChanged__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_GamesList_K2Node_ComponentBoundEvent_9_OnBusyChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_RefreshButton_K2Node_ComponentBoundEvent_13_OnWasClicked__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_RefreshButton_K2Node_ComponentBoundEvent_13_OnWasClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_PlayersList_K2Node_ComponentBoundEvent_5_onListRefreshed__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_PlayersList_K2Node_ComponentBoundEvent_5_onListRefreshed__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.rowFriendFocused
+struct UUMG_FriendsSiderbarContents_C_rowFriendFocused_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_FriendsList_K2Node_ComponentBoundEvent_14_OnBusyChanged__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_FriendsList_K2Node_ComponentBoundEvent_14_OnBusyChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_GamesList_K2Node_ComponentBoundEvent_4_onListRefreshed__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_GamesList_K2Node_ComponentBoundEvent_4_onListRefreshed__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.FriendsCompleted
+struct UUMG_FriendsSiderbarContents_C_FriendsCompleted_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.FriendsFailed
+struct UUMG_FriendsSiderbarContents_C_FriendsFailed_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.OnGamepadClose
+struct UUMG_FriendsSiderbarContents_C_OnGamepadClose_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.Tick
+struct UUMG_FriendsSiderbarContents_C_Tick_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GamepadMenuCancel
+struct UUMG_FriendsSiderbarContents_C_GamepadMenuCancel_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__startGameButton_K2Node_ComponentBoundEvent_17_OnFocused__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__startGameButton_K2Node_ComponentBoundEvent_17_OnFocused__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__manageFriendsButton_K2Node_ComponentBoundEvent_18_OnFocused__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__manageFriendsButton_K2Node_ComponentBoundEvent_18_OnFocused__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__goOnlineButton_K2Node_ComponentBoundEvent_20_OnFocused__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__goOnlineButton_K2Node_ComponentBoundEvent_20_OnFocused__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_RefreshButton_K2Node_ComponentBoundEvent_21_OnWasFocused__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_RefreshButton_K2Node_ComponentBoundEvent_21_OnWasFocused__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_AddFriendButton_K2Node_ComponentBoundEvent_22_OnWasFocused__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_AddFriendButton_K2Node_ComponentBoundEvent_22_OnWasFocused__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__AddFriendsContent_K2Node_ComponentBoundEvent_8_OnClose__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__AddFriendsContent_K2Node_ComponentBoundEvent_8_OnClose__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_AddFriendButton_K2Node_ComponentBoundEvent_7_OnWasClicked__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_AddFriendButton_K2Node_ComponentBoundEvent_7_OnWasClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__AddFriendsContent_K2Node_ComponentBoundEvent_10_OnButtonsChanged__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__AddFriendsContent_K2Node_ComponentBoundEvent_10_OnButtonsChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GamepadShutdown
+struct UUMG_FriendsSiderbarContents_C_GamepadShutdown_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_PrivateGameInGame2_K2Node_ComponentBoundEvent_34_onTryToChangeValue__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_PrivateGameInGame2_K2Node_ComponentBoundEvent_34_onTryToChangeValue__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_PrivateGameInMenu2_K2Node_ComponentBoundEvent_35_onTryToChangeValue__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_PrivateGameInMenu2_K2Node_ComponentBoundEvent_35_onTryToChangeValue__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_PrivateGameInGame_K2Node_ComponentBoundEvent_38_onValueChanged__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_PrivateGameInGame_K2Node_ComponentBoundEvent_38_onValueChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_PrivateGameInMenu_K2Node_ComponentBoundEvent_39_onValueChanged__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_PrivateGameInMenu_K2Node_ComponentBoundEvent_39_onValueChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__goOnlineButton_K2Node_ComponentBoundEvent_11_OnClicked__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__goOnlineButton_K2Node_ComponentBoundEvent_11_OnClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.OnCreateSessionCompleted
+struct UUMG_FriendsSiderbarContents_C_OnCreateSessionCompleted_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.GamepadInitialize
+struct UUMG_FriendsSiderbarContents_C_GamepadInitialize_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.OnCreateSessionFailed
+struct UUMG_FriendsSiderbarContents_C_OnCreateSessionFailed_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.OnHasOnlinePrivileges
+struct UUMG_FriendsSiderbarContents_C_OnHasOnlinePrivileges_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_PrivateGameInMenu_K2Node_ComponentBoundEvent_15_OnHovered__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_PrivateGameInMenu_K2Node_ComponentBoundEvent_15_OnHovered__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_ModalCloseSurface_K2Node_ComponentBoundEvent_0_OnClose__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_ModalCloseSurface_K2Node_ComponentBoundEvent_0_OnClose__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_PrivateGameInGame_K2Node_ComponentBoundEvent_16_OnHovered__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_PrivateGameInGame_K2Node_ComponentBoundEvent_16_OnHovered__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_GamesList_K2Node_ComponentBoundEvent_23_OnGameJoined__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_GamesList_K2Node_ComponentBoundEvent_23_OnGameJoined__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_GamesList_K2Node_ComponentBoundEvent_25_OnGamesResultsChanged__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_GamesList_K2Node_ComponentBoundEvent_25_OnGamesResultsChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.EnableListResultsMain
+struct UUMG_FriendsSiderbarContents_C_EnableListResultsMain_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.BndEvt__UMG_FriendsList_K2Node_ComponentBoundEvent_2_OnAnyListRefreshed__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_BndEvt__UMG_FriendsList_K2Node_ComponentBoundEvent_2_OnAnyListRefreshed__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.ExecuteUbergraph_UMG_FriendsSiderbarContents
+struct UUMG_FriendsSiderbarContents_C_ExecuteUbergraph_UMG_FriendsSiderbarContents_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.StartGameClick__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_StartGameClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.OnGamesResultsChanged__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_OnGamesResultsChanged__DelegateSignature_Params
+{
+};
+
+// Function UMG_FriendsSiderbarContents.UMG_FriendsSiderbarContents_C.OnClose__DelegateSignature
+struct UUMG_FriendsSiderbarContents_C_OnClose__DelegateSignature_Params
+{
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

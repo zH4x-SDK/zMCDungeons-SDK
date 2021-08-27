@@ -1,0 +1,166 @@
+﻿#pragma once
+
+// Name: DBZKakarot, Version: 1.0.3
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.GetClosedText
+struct UUMG_InitialLanguageSettings_C_GetClosedText_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.GetOpenedText
+struct UUMG_InitialLanguageSettings_C_GetOpenedText_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.SetSelectedButton
+struct UUMG_InitialLanguageSettings_C_SetSelectedButton_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.RefreshVisuals
+struct UUMG_InitialLanguageSettings_C_RefreshVisuals_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.SetupCurrentLanguage
+struct UUMG_InitialLanguageSettings_C_SetupCurrentLanguage_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.SetButtonArray
+struct UUMG_InitialLanguageSettings_C_SetButtonArray_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.Construct
+struct UUMG_InitialLanguageSettings_C_Construct_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__English_K2Node_ComponentBoundEvent_0_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__English_K2Node_ComponentBoundEvent_0_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__French_K2Node_ComponentBoundEvent_1_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__French_K2Node_ComponentBoundEvent_1_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__German_K2Node_ComponentBoundEvent_2_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__German_K2Node_ComponentBoundEvent_2_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__Italian_K2Node_ComponentBoundEvent_3_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__Italian_K2Node_ComponentBoundEvent_3_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__Japanese_K2Node_ComponentBoundEvent_4_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__Japanese_K2Node_ComponentBoundEvent_4_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__Korean_K2Node_ComponentBoundEvent_5_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__Korean_K2Node_ComponentBoundEvent_5_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__Polish_K2Node_ComponentBoundEvent_6_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__Polish_K2Node_ComponentBoundEvent_6_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__PortugeseBrazil_K2Node_ComponentBoundEvent_7_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__PortugeseBrazil_K2Node_ComponentBoundEvent_7_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__PortugesePortugal_K2Node_ComponentBoundEvent_8_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__PortugesePortugal_K2Node_ComponentBoundEvent_8_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__Russian_K2Node_ComponentBoundEvent_9_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__Russian_K2Node_ComponentBoundEvent_9_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__SpanishMexico_K2Node_ComponentBoundEvent_10_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__SpanishMexico_K2Node_ComponentBoundEvent_10_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__SpanishSpain_K2Node_ComponentBoundEvent_11_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__SpanishSpain_K2Node_ComponentBoundEvent_11_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__Swedish_K2Node_ComponentBoundEvent_12_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__Swedish_K2Node_ComponentBoundEvent_12_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.SetupGamepadListeners
+struct UUMG_InitialLanguageSettings_C_SetupGamepadListeners_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__ButtonContinue_K2Node_ComponentBoundEvent_13_OnWasClicked__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__ButtonContinue_K2Node_ComponentBoundEvent_13_OnWasClicked__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.GamepadDone
+struct UUMG_InitialLanguageSettings_C_GamepadDone_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.Back
+struct UUMG_InitialLanguageSettings_C_Back_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.ScrubList
+struct UUMG_InitialLanguageSettings_C_ScrubList_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__ChineseSimplified_K2Node_ComponentBoundEvent_0_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__ChineseSimplified_K2Node_ComponentBoundEvent_0_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.BndEvt__ChineseTraditional_K2Node_ComponentBoundEvent_15_OnButtonClick__DelegateSignature
+struct UUMG_InitialLanguageSettings_C_BndEvt__ChineseTraditional_K2Node_ComponentBoundEvent_15_OnButtonClick__DelegateSignature_Params
+{
+};
+
+// Function UMG_InitialLanguageSettings.UMG_InitialLanguageSettings_C.ExecuteUbergraph_UMG_InitialLanguageSettings
+struct UUMG_InitialLanguageSettings_C_ExecuteUbergraph_UMG_InitialLanguageSettings_Params
+{
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
